@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Introdução Algoritmo",
+    "description": "Algoritmo, Representação, Pensamento Computacional, Pseudocódigo e Variável",
+    "startDate": "2024-01-26",
+    "endDate": "2024-02-02",
+    "url": "https://senaisp.notion.site/Introdu-o-Algoritmo-b7aaff9f3cfb4606874c696cb370c22a?pvs=4"
+  },
+  {
+    "title": "Algoritmo - Condicional",
+    "description": "Condicional, Operadores de Comparação, Operadores Lógicos, Condicional no Pseudocódigo",
+    "startDate": "2024-02-02",
+    "endDate": "2024-02-08",
+    "url": "https://senaisp.notion.site/Algoritmo-Condicional-2225dff090824714961b7b1837fba8f8?pvs=4"
+  },
+  {
+    "title": "Introdução a Linguagem de Programação - A1",
+    "description": "Algoritmos e Código, Linguagens de Programação, Dicas para Lógica, IDE e Editor de Código, Javascript e Node.js (Origem e Usos)",
+    "startDate": "2024-02-09",
+    "endDate": "2024-02-15",
+    "url": "https://senaisp.notion.site/Introdu-o-Linguagem-de-Programa-o-A1-28f949a448fd4b92aef5ddd80b33f397?pvs=4"
+  },
+  {
+    "title": "Introdução a Linguagem de Programação - A2",
+    "description": "Preparar Ambiente e Javascript (Sintaxe), Tipos de Dados, Operadores Aritméticos, Lógicos e Comparação, Variável, Console, Biblioteca - Prompt",
+    "startDate": "2024-02-16",
+    "endDate": "2024-02-29",
+    "url": "https://senaisp.notion.site/Introdu-o-Linguagem-de-Programa-o-A2-c593789394f748488dd783a8818f238e?pvs=4"
+  }
+]
