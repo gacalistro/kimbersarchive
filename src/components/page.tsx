@@ -3,7 +3,7 @@ import content from "../content.json";
 
 export default function Page() {
   return (
-    <div className="font-mono select-none cursor-default">
+    <div className="font-mono select-none cursor-default bg-slate-50">
       <header className="px-[4%] py-4">
         <h1 className="font-semibold text-2xl flex items-center">
           <img
