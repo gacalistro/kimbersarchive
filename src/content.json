@@ -31,6 +31,7 @@
     "title": "Introdução a Linguagem de Programação - A3",
     "description": "Escopo Global e de Bloco, Estrutura Condicional (if e else), Condicional Aninhado (if else if), Switch Case",
     "startDate": "2024-02-29",
+    "endDate": "2024-03-08",
     "url": "https://senaisp.notion.site/Introdu-o-a-Linguagem-de-Programa-o-A3-90d802c71a7f42049c0a747e154dbb15?pvs=4"
   },
   {
@@ -39,5 +40,11 @@
     "startDate": "2024-03-07",
     "endDate": "2024-03-07",
     "url": "https://senaisp.notion.site/Internet-das-Coisas-IoT-4085ec5d58b744e6bde52163c9286ae8?pvs=4"
+  },
+  {
+    "title": "Sistema de Controle de Versão (VCS)",
+    "description": "Contexto, Tipos, Versão, Ciclo de Vida de Versão, Versionamento Semântico, Git, Ciclo de Vida de Commit, Instalação, Execução e CLI",
+    "startDate": "2024-03-08",
+    "url": "https://senaisp.notion.site/Sistema-de-Controle-de-Vers-o-VCS-62a2956799c641e7a6b9236207c56995?pvs=4"
   }
 ]
