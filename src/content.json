@@ -1,34 +1,34 @@
 [
   {
-    "title": "Introdução Algoritmo",
+    "title": "Introdução à Algoritmo",
     "description": "Algoritmo, Representação, Pensamento Computacional, Pseudocódigo e Variável",
     "startDate": "2024-01-26",
     "endDate": "2024-02-02",
     "url": "https://senaisp.notion.site/Introdu-o-Algoritmo-b7aaff9f3cfb4606874c696cb370c22a?pvs=4"
   },
   {
-    "title": "Algoritmo - Condicional",
+    "title": "Algoritmo à Algoritmo (Condicional)",
     "description": "Condicional, Operadores de Comparação, Operadores Lógicos, Condicional no Pseudocódigo",
     "startDate": "2024-02-02",
     "endDate": "2024-02-08",
     "url": "https://senaisp.notion.site/Algoritmo-Condicional-2225dff090824714961b7b1837fba8f8?pvs=4"
   },
   {
-    "title": "Introdução a Linguagem de Programação - A1",
+    "title": "ILP A1 - Introdução a Linguagem de Programação",
     "description": "Algoritmos e Código, Linguagens de Programação, Dicas para Lógica, IDE e Editor de Código, Javascript e Node.js (Origem e Usos)",
     "startDate": "2024-02-09",
     "endDate": "2024-02-15",
     "url": "https://senaisp.notion.site/Introdu-o-Linguagem-de-Programa-o-A1-28f949a448fd4b92aef5ddd80b33f397?pvs=4"
   },
   {
-    "title": "Introdução a Linguagem de Programação - A2",
+    "title": "ILP A2 - Fundamentos JS",
     "description": "Preparar Ambiente e Javascript (Sintaxe), Tipos de Dados, Operadores Aritméticos, Lógicos e Comparação, Variável, Console, Biblioteca - Prompt",
     "startDate": "2024-02-16",
     "endDate": "2024-02-29",
     "url": "https://senaisp.notion.site/Introdu-o-Linguagem-de-Programa-o-A2-c593789394f748488dd783a8818f238e?pvs=4"
   },
   {
-    "title": "Introdução a Linguagem de Programação - A3",
+    "title": "ILP A3 - Estrutura Condicional",
     "description": "Escopo Global e de Bloco, Estrutura Condicional (if e else), Condicional Aninhado (if else if), Switch Case",
     "startDate": "2024-02-29",
     "endDate": "2024-03-08",
@@ -42,9 +42,10 @@
     "url": "https://senaisp.notion.site/Internet-das-Coisas-IoT-4085ec5d58b744e6bde52163c9286ae8?pvs=4"
   },
   {
-    "title": "Sistema de Controle de Versão (VCS)",
-    "description": "Contexto, Tipos, Versão, Ciclo de Vida de Versão, Versionamento Semântico, Git, Ciclo de Vida de Commit, Instalação, Execução e CLI",
+    "title": "Sistema de Controle de Versão (VCS), Git e Github",
+    "description": "Contexto, Tipos, Versão, Ciclo de Vida de Versão, Versionamento Semântico, Git, Ciclo de Vida de Commit, Instalação, Execução, CLI do Git e Github",
     "startDate": "2024-03-08",
-    "url": "https://senaisp.notion.site/Sistema-de-Controle-de-Vers-o-VCS-62a2956799c641e7a6b9236207c56995?pvs=4"
+    "endDate": "2024-04-04",
+    "url": "https://senaisp.notion.site/Sistema-de-Controle-de-Vers-o-VCS-Git-e-GitHub-62a2956799c641e7a6b9236207c56995?pvs=74"
   }
 ]
