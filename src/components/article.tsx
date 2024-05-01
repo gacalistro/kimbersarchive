@@ -11,7 +11,7 @@ interface ArticleProps {
   highlight: boolean;
 }
 
-export default function Article({
+export function Article({
   title,
   description,
   startDate,
@@ -25,29 +25,38 @@ export default function Article({
         href={url}
         target="_blank"
         className={clsx(
-          "flex flex-col gap-2 border rounded-lg p-6 transition-colors duration-300 cursor-default",
-          highlight && "bg-slate-800 hover:bg-slate-800/90 text-slate-200",
-          !highlight && "hover:bg-slate-100/75"
+          "flex flex-col gap-2 border rounded-lg p-6 transition-colors duration-200 cursor-default",
+          highlight &&
+            "bg-dark-800 hover:bg-dark-800/95 text-light-200 dark:border-dark-500 dark:bg-dark-800/50 dark:hover:border-dark-400",
+          !highlight &&
+            "hover:bg-light-100/75 hover:border-dark-600 dark:border-dark-700 dark:hover:border-dark-500 dark:hover:bg-dark-800/15"
         )}
       >
         <div className="flex items-center justify-between">
           <h3
             className={clsx(
               "font-semibold text-xl basis-5/6",
-              highlight && "text-slate-100"
+              highlight && "text-light-100"
             )}
           >
             {title}
           </h3>
           <ExternalLink size={20} />
         </div>
-        <p className={clsx("text-sm", !highlight && "text-slate-700")}>
+
+        <p
+          className={clsx(
+            "text-sm dark:text-dark-300",
+            !highlight && "text-dark-700"
+          )}
+        >
           {description}
         </p>
+
         <div
           className={clsx(
-            "flex items-center gap-4",
-            !highlight && "text-slate-700"
+            "flex items-center gap-4 dark:text-dark-400",
+            !highlight && "text-dark-700"
           )}
         >
           <span>{formatDate(startDate)}</span>

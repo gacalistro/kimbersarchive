@@ -1,25 +1,28 @@
-import Article from "./article";
+import { Icon } from "./icon";
+import { Article } from "./article";
+import { ThemeToggle } from "./theme-toggle";
 import content from "../content.json";
 
-export default function Page() {
+export function Page() {
   return (
-    <div className="font-mono select-none cursor-default bg-slate-50">
-      <header className="px-[4%] py-4">
-        <h1 className="font-semibold text-2xl flex items-center">
-          <img
-            src="https://www.svgrepo.com/show/479843/duck-toy-illustration-3.svg"
-            alt="Duck"
-            className="w-6"
-          />
+    <div className="font-mono select-none cursor-default bg-light-50 dark:bg-dark-900 transition-colors duration-500">
+      <header className="px-[4%] py-4 flex items-center justify-between text-dark-900 dark:text-light-200">
+        <h1 className="font-semibold text-2xl flex items-center group relative">
+          <span className="max-md:hidden absolute text-[9px] bottom-2 -left-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            quack
+          </span>
+          <Icon className="size-6 group-hover:rotate-6 transition-transform duration-200" />
           's Archive
         </h1>
+
+        <ThemeToggle />
       </header>
 
-      <main className="max-w-[800px] max-lg:px-[4%] mx-auto">
+      <main className="max-w-[800px] max-lg:px-[4%] mx-auto text-dark-900 dark:text-light-200">
         <section className="py-20">
           <span>bem-vindo ao</span>
           <h2 className="text-4xl my-2 font-bold">Kimber's Archive</h2>
-          <p className="tracking-wide text-gray-700">
+          <p className="tracking-wide text-dark-700 dark:text-light-300">
             Tudo o que você precisa saber sobre as aulas está aqui. Kimber
             sempre terá a resposta!
           </p>
