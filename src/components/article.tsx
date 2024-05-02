@@ -1,6 +1,7 @@
 import { clsx } from "clsx";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import formatDate from "../utils/formatDate";
+import { motion } from "framer-motion";
 
 interface ArticleProps {
   title: string;
@@ -20,7 +21,12 @@ export function Article({
   highlight,
 }: ArticleProps) {
   return (
-    <article>
+    <motion.article
+      initial={{ opacity: 0, x: -10 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ margin: "-80px 0px -60px 0px" }}
+      transition={{ ease: "easeInOut", duration: 0.6 }}
+    >
       <a
         href={url}
         target="_blank"
@@ -64,6 +70,6 @@ export function Article({
           <span>{endDate ? formatDate(endDate) : "?"}</span>
         </div>
       </a>
-    </article>
+    </motion.article>
   );
 }
