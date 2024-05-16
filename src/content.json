@@ -87,6 +87,13 @@
     "title": "IoT A1 - Prototipagem Eletrônica",
     "description": "Sistemas embarcados, microcontroladores, prototipagem eletrônica, circuitos elétricos e eletrônicos, componentes e placas controladoras",
     "startDate": "2024-05-09",
+    "endDate": "2024-05-10",
     "url": "https://senaisp.notion.site/IoT-A1-Prototipagem-Eletr-nica-c7eae69f19be4f6ab15e4aa1d3228704?pvs=4"
+  },
+  {
+    "title": "IoT A2 - C++ aplicado no Arduino/ESP32",
+    "description": "Sintaxe, Semelhanças com JS, Valores e funções específicas para Arduinos",
+    "startDate": "2024-05-16",
+    "url": "https://senaisp.notion.site/IoT-A2-C-aplicado-no-Arduino-ESP32-6abc0bf270554fb4b7135124242f9eb7?pvs=4"
   }
 ]
