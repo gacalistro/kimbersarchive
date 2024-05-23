@@ -94,6 +94,13 @@
     "title": "IoT A2 - C++ aplicado no Arduino/ESP32",
     "description": "Sintaxe, Semelhanças com JS, Valores e funções específicas para Arduinos",
     "startDate": "2024-05-16",
+    "endDate": "2024-05-17",
     "url": "https://senaisp.notion.site/IoT-A2-C-aplicado-no-Arduino-ESP32-6abc0bf270554fb4b7135124242f9eb7?pvs=4"
+  },
+  {
+    "title": "IoT A3 - ESP32 e Arduino IDE",
+    "description": "Instalação e Configuração do Arduino IDE, Configuração do Wokwi, Padrão de pinos do ESP32",
+    "startDate": "2024-05-23",
+    "url": "https://senaisp.notion.site/IoT-A3-ESP32-e-Arduino-IDE-1ba09ad62a5a496fa83a0ac7856dda8c?pvs=4"
   }
 ]
