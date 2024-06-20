@@ -29,6 +29,8 @@ export function Page() {
         </section>
 
         <section className="flex flex-col gap-4 pb-20">
+          <h3 className="text-center">Chegamos ao fim do 1º semestre!</h3>
+
           {[...content].reverse().map((item, index) => (
             <Article {...item} key={item.startDate} highlight={index == 0} />
           ))}
