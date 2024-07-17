@@ -24,12 +24,13 @@ export function Page() {
           <h2 className="text-4xl my-2 font-bold">Kimber's Archive</h2>
           <p className="tracking-wide text-dark-700 dark:text-light-300">
             Tudo o que você precisa saber sobre as aulas está aqui. Kimber
-            sempre terá a resposta!
+            sempre terá a resposta!<br />
+            Nunca há um fim para o aprendizado. Que Raphagod vos abençoe.
           </p>
         </section>
 
         <section className="flex flex-col gap-4 pb-20">
-          <h3 className="text-center">Chegamos ao fim do 1º semestre!</h3>
+          <h3 className="text-center">Foi divertido. Obrigado por aprenderem comigo.</h3>
 
           {[...content].reverse().map((item, index) => (
             <Article {...item} key={item.startDate} highlight={index == 0} />
